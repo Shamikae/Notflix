@@ -1,0 +1,59 @@
+body{
+    background-image: url('https://mppmduse2pmpovwapp.azurewebsites.net/wp-content/uploads/2019/09/netflix-background-9.jpg');
+    background-attachment: fixed;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    /* position: relative; */
+    font-size: 50px;
+    color: red;
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 1.0em white;
+    background-image: inherit image('/Users/shamikaearle/Desktop/Development/Nebula_Academy/APIs/API_Project/NotflixLogo.png');
+    position: -webkit-sticky;
+position: sticky;
+top: 20px;
+}
+#container{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card{
+    display: flex;
+    /* background-color:black; */
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em red, 0 0 1.0em white;
+    /* background-color: rgb(15, 20, 25, .5); */
+    color: white;
+    font-size: large;
+    margin: 10px;
+    /* text-shadow: 2px 2px black; */
+    
+}
+img{
+    background-color: whitesmoke;        
+    max-height: 225px;
+    max-width: 200px;
+    border: 7px solid black;
+    border-radius: 5px;
+    /* box-shadow: 2.5px 2.5px 8px 5px orange ; */
+    margin: auto;
+    padding: 5px;
+}
+
+.card:hover{
+    box-shadow: 2px 8px 10px 4px rgb(31, 30, 30)
+}
+
+
+    
