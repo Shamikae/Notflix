@@ -33,6 +33,7 @@ function search(newSearch){
 
     page++;
 
+    // JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.Provides a global fetch() method that provides an easy, logical way to fetch resources asynchronously across the network.
     fetch(url)
         .then(res =>  res.json())
         .then(res => {

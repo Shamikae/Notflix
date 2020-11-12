@@ -47,11 +47,11 @@ body{
 }
 
 #search-box:hover #search {
-    width: 105px;
+    width: 110px;
 }
 
 #search:focus{
-    width: 105px;
+    width: 110px;
 }
 
 
