@@ -29,7 +29,7 @@ function search(newSearch){
     }
     container.innerHTML = newSearch?'': container.innerHTML
     query = document.getElementById('search').value || 'Holiday'; 
-    url = `http://www.omdbapi.com/?s=${query}&page=${page}&apikey=ea3d4d43&`;
+    url = `https://www.omdbapi.com/?s=${query}&page=${page}&apikey=ea3d4d43&`;
 
     page++;
 
