@@ -1,7 +1,7 @@
 var input = document.getElementById("search");
 let container = document.getElementById('container');
 let query = 'Holiday';
-let url = `http://www.omdbapi.com/?s=${query}&apikey=ea3d4d43&`
+let url = `https://www.omdbapi.com/?s=${query}&apikey=ea3d4d43&`
 let page = 1;
 
 //Function to add more content upon scrolling to the bottom
